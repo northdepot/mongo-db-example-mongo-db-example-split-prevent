@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: mongo-service
     spec:
       containers:
-      - image: docker.io/library/mongo
+      - image: quay.io/jduimovich0/mongo
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
